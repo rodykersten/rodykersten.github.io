@@ -1,1 +1,200 @@
-Hello World!
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Rody Kersten</title>
+
+<meta name="Description" content="Rody Kersten" />
+<meta equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" media="all" href="style.css" />
+<script type="text/javascript" src="antispam.js"></script>
+</head >
+
+<body>
+<table id="header">
+<tr>
+<td id="title">Rody Kersten</td>
+<td id="cmusv"></td>
+</tr>
+</table>
+
+<hr id="divider" />
+
+<img src="img/photo.jpg" alt="Photo" id="photo" />
+
+<p>Postdoc at <a href="http://www.cmu.edu">Carnegie Mellon University</a> in the <a href="https://veris-cylab.github.io">VeriS</a> group at the <a href="http://www.cmu.edu/silicon-valley/">Silicon Valley</a> campus.</p>
+
+<h1>Research</h1>
+<p>My research interest is software analysis in the broad sense: automated techniques to establish program properties such as functional correctness, safety, security and efficiency. In particular, I am interested in analysing consumption of resources such as time, memory and energy.</p>
+
+<p>Currently, I work on the <a href="https://www.cmu.edu/silicon-valley/research/isstac/index.html">ISSTAC</a> project, sponsored by the <a href="http://www.darpa.mil/program/space-time-analysis-for-cybersecurity">DARPA STAC</a> program. Here, I apply resource analysis in the search for vulnerabilities to algorithmic complexity based attacks (Denial-of-Service). If a certain input causes a software system to consume an impractically large amount of resources, an adversary could use this input to deny service to benign users or otherwise disable the system. My research aims to identify such vulnerabilities in a semi-automated manner.</p>
+
+<p>Before joining CMU-SV, I was affiliated with the <a href="http://www.ou.nl">Open University of the Netherlands</a> and <a href="http://www.ru.nl">Radboud University Nijmegen</a>, where I did my PhD, advised by <a href="http://www.cs.ru.nl/~marko">Marko van Eekelen</a>. During my PhD, I developed various software analysis methods for resource-sensitive systems, including a loop-bound analysis, heap and stack analysis and a technique that analyses energy consumption of hybrid systems where hardware is controlled by software. Such technologies can increase system safety and reliability by preventing resource-related crashes, strengthen security by detecting vulnerabilities at compile-time and aid program optimization for performance or efficiency.</a>
+
+<h1>Contact</h1>
+<p>
+NASA Research Park<br/>
+Building 19, Room 1006<br/>
+Moffett Field, CA 94035<br/>
+<script language="javascript">printEmailLink('rody.kersten','sv.cmu','edu')</script><br/>
+</p>
+
+<h1>Tools</h1>
+<p>
+<a href="https://github.com/isstac/kelinci">Kelinci</a>, an interface for running <a href="http://lcamtuf.coredump.cx/afl/">AFL</a> on Java programs.<br/>
+<a href="http://jayhorn.github.io/jayhorn/">JayHorn</a>, a Horn-based verification tool for Java.<br/>
+<a href="https://github.com/isstac/spf-wca">SPF-WCA</a>, infers algorithmic complexity of Java methods. Based on <a href="http://babelfish.arc.nasa.gov/trac/jpf/wiki/projects/jpf-symbc">Symbolic PathFinder</a>.<br/>
+<a href="http://resourceanalysis.cs.ru.nl/energy">ECAlogic</a>, energy analysis of software-controlled systems.<br/>
+<a href="http://resourceanalysis.cs.ru.nl">ResAna</a>, heap, stack and loop-bound analysis for Java.<br/>
+</p>
+
+<!--
+<h1>Events</h1>
+<p>
+<a href="https://ti.arc.nasa.gov/events/nfm-2017/">NASA Formal Methods 2017</a><br/>
+</p>
+--!>
+
+<h1>Publications</h1>
+
+<h2>Scientific peer-reviewed publications</h2>
+<ul>
+	<li><b>AFL-based Fuzzing for Java with Kelinci</b>
+	[<a href="publications/ccs17-kersten.pdf">pdf</a>]<br/>
+	Rody Kersten, Kasper Luckow and Corina Pasareanu<br/>
+        To appear at the <i>24th ACM Conference on Computer and Communications Security (CCS 2017)</i> as a poster. 
+	</li>
+</ul>
+<ul>
+	<li><b>Quantified Heap Invariants for Object-Oriented Programs</b>
+	[<a href="publications/lpar17-kahsai.pdf">pdf</a>]<br/>
+	Temesghen Kahsai, Rody Kersten, Philipp Ruemmer and Martin Sch&auml;f<br/>
+        In <i>Proceedings of the 21st International Conference on Logic for Programming, Artificial Intelligence and Reasoning (LPAR 2017)</i>. 
+	</li>
+</ul>
+<ul>
+  <li><b>Symbolic Complexity Analysis using Context-preserving Histories</b>
+	  [<a href="publications/icst2017-luckow.pdf">pdf</a>]<br/>
+	Kasper Luckow, Rody Kersten and Corina Pasareanu<br/>
+	In <i>Proceedings of the 10th IEEE International Conference on Software Testing, Verification and Validation (ICST 2017)</i>. Won <b>best paper award</b>!
+	</li>
+</ul>
+<ul>
+  <li><b>Resource Contracts for Java</b>
+        [<a href="publications/jpf2016-kersten.pdf">pdf</a>]<br/>
+	Rody Kersten, Martin Sch&auml;f and Temesghen Kahsai<br/>
+        In <i>Proceedings of the Java PathFinder Workshop 2016</i>, ACM SIGSOFT Software Engineering Notes, 2016.
+	</li>
+</ul>
+<ul>
+  <li><b>Using Dependent Types to define Energy Augmented Semantics of Programs</b>
+	[<a href="publications/fopara15-vangastel.pdf">pdf</a>]<br/>
+	Bernard van Gastel, Rody Kersten, Marko van Eekelen<br/>
+	In <i>Proceedings of the Fourth International Workshop on Foundational and Practical Aspects of Resource Analysis (FOPARA'15)</i>.
+	</li>
+</ul>
+<ul>
+  <li><b>Improving Coverage of Test-Cases Generated by Symbolic PathFinder for Programs with Loops</b>
+        [<a href="publications/jpf2014-kersten.pdf">pdf</a>]<br/>
+	Rody Kersten, Suzette Person, Neha Rungta and Oksana Tkachuk<br/>
+        In <i>Proceedings of the Java PathFinder Workshop 2014</i>, ACM SIGSOFT Software Engineering Notes, 2015.
+	</li>
+</ul>
+<ul>
+  <li><b>ECAlogic: Hardware-Parametric Energy-Consumption Analysis of Algorithms</b>
+	[<a href="publications/foal14-schoolderman.pdf">pdf</a>]<br/>
+	Marc Schoolderman, Jascha Neutelings, Rody Kersten and Marko van Eekelen<br/>
+	In <i>Proceedings of the 13th Foundations of Aspect-Oriented Languages Workshop</i>, pages 19-22, 2014.  
+	</li>
+</ul>
+<ul>
+  <li><b>A Hoare Logic for Energy Consumption Analysis</b>
+	[<a href="publications/fopara14-kersten.pdf">pdf</a>]<br/>
+	Rody Kersten, Paolo Parisen Toldin, Bernard van Gastel and Marko van Eekelen<br/>
+	In <i>Proceedings of the Third International Workshop on Foundational and Practical Aspects of Resource Analysis (FOPARA'13)</i>, LNCS 8552, pages 93-109, 2014.
+	</li>
+</ul>
+<ul>
+	<li><b>ResAna: A Resource Analysis Toolset for (Real-Time) Java</b> 
+	[<a href="publications/cpe13-kersten.pdf">pdf</a>]<br/>
+	Rody Kersten, Bernard van Gastel, Olha Shkaravska, Manuel Montenegro and Marko van Eekelen<br/>
+	<i>Journal of Concurrency and Computation: Practice and Experience</i>, Vol. 26, Number 14, Pages 2432-2455. Wiley, 2014.
+	</li>
+</ul>
+<ul>
+	<li><b>Using Model-Checking to Reveal a Vulnerability of Tamper-Evident Pairing</b>
+	[<a href="publications/nfm13.pdf">pdf</a>]<br/>
+	Rody Kersten, Bernard van Gastel, Manu Drijvers, Sjaak Smetsers and Marko van Eekelen<br/>
+	In <i> Proceedings of the 5th NASA Formal Methods Symposium</i>, LNCS 7871, pages 63-77. Springer, May 2013.
+	</li>
+</ul>
+<ul>
+	<li><b>Making Resource Analysis Practical for Real-Time Java</b>
+	[<a href="publications/jtres12.pdf">pdf</a>]<br/>
+	Rody Kersten, Olha Shkaravska, Bernard van Gastel, Manuel Montenegro and Marko van Eekelen<br/>
+	In <i>JTRES'12: Proceedings of the 10th International Workshop on Java Technologies for Real-time and Embedded Systems</i>, ACM Digital Proceedings Series, 2012.
+	</li>
+</ul>
+<ul>
+	<li><b>Test-Based Inference of Polynomial Loop-Bound Functions</b>
+	[<a href="publications/pppj10.pdf">pdf</a>]<br/>
+	Olha Shkaravska, Rody Kersten and Marko van Eekelen<br/>
+	In <i>PPPJ'10: Proceedings of the 8th International Conference on the Principles and Practice of Programming in Java</i>, pages 99-108, 2010.
+	</li>
+</ul>
+
+<h2>Technical reports</h2>
+<ul>
+	<li><b>Soundness Proof for a Hoare Logic for Energy Consumption Analysis</b>
+	[<a href="https://pms.cs.ru.nl/iris-diglib/src/getContent.php?id=2013-ParisenToldin-SoundnessLogic">pdf</a>]<br/>
+	Paolo Parisen Toldin, Rody Kersten, Bernard van Gastel, and Marko van Eekelen<br/>
+	Technical report ICIS--R13009, Radboud University Nijmegen, October 2013.
+	</li>
+</ul>
+<ul>
+	<li><b>Ranking Functions for Loops with Disjunctive Exit-Conditions</b>
+	[<a href="publications/KerstenVanEekelenFOPARA2011.pdf">pdf</a>]<br/>
+	Rody Kersten and Marko van Eekelen<br/>
+	In Ricardo Pe&ntilde;a (ed.) <i>Proceedings of the 2th International Workshop on Foundational and Practical Aspects of Resource Analysis (FOPARA2011)</i>. Madrid, Spain. Tech. Rep. SIC-08/11. Dept. Computer Systems and Computing Universidad Complutense de Madrid. pp. 111-126. May 2011.
+	</li>
+</ul>
+
+<h2>Non-scientific</h2>
+<ul>
+	<li><b>Software en Energiegebruik</b><br/>
+	Marko van Eekelen, Rody Kersten and Bernard van Gastel<br/>
+	In <i><a href="http://www.greenict.org/uitreiking_boek_Duurzame_ICT.html">Duurzame ICT, Grondstof en energiebron voor een duurzame wereld</a></i>, pages 23-33, 2010.
+	</li>
+</ul>
+
+<h2>Poster presentations</h2>
+<ul>
+  <li><b>JayHorn: A framework for verifying Java programs</b><br/>
+	Temesghen Kahsai, Rody Kersten, Philipp R&uuml;mmer, Huascar Sanchez, Martin Sch&auml;f<br/>
+        At <a href="http://i-cav.org/2016/">CAV '16</a>, July 2016, Toronto, Ontario, Canada.
+	</li>
+</ul>
+<ul>
+	<li><b>Big Energy Data for Software Engineering</b><br/>
+        Christoph Bockisch, Jeroen Keiren, Bernard van  Gastel, Rody Kersten, Marko van Eekelen<br/>
+	At <a href="http://2015.ecoop.org/">ECOOP '15</a>, July 2015, Prague, Czech Republic.
+	</li>
+</ul>
+<ul>
+	<li><b>Go-Green: Greener house through a self-learning, privacy-aware, user-centric, energy-aware, wireless monitoring and control system</b><br/>
+        Rody Kersten<br/>
+	At <a href="http://www.aninnovativetruth.nl/">An Innovative Truth IV</a>, June 2012, Beatrix Theater, Utrecht, The Netherlands.
+	</li>
+</ul>
+
+<h2>PhD Thesis</h2>
+<ul>
+	<li><b>Software Analysis Methods for Resource-Sensitive Systems</b>
+	[<a href="publications/RodyKerstenPhDThesis.pdf">pdf</a>]<br/>
+	Rody Kersten, July 2015.
+	</li>
+</ul>
+
+</body>
+
+</html>

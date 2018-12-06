@@ -1,0 +1,110 @@
+body {
+	margin: 0px;
+	font-family: verdana,arial,'sans serif';
+}
+
+table#header
+{
+        background: linear-gradient(#dddddd,#ffffff);
+	height: 60px;
+	width: 100%;
+}
+
+td#title
+{
+	font-family: verdana,arial,'sans serif';
+	font-size: 32px;
+        font-weight: bold;
+	color: black;
+	text-align: left;
+	padding-left: 20px;
+}
+
+td#cmusv
+{
+	text-align: right;
+	padding-right: 20px;
+}
+
+img#cmulogo
+{
+	width: 30%;
+	height: auto;
+        margin-top: 5px;
+        margin-bottom: -5px;
+}
+
+img#photo
+{
+	float: right;
+	margin: 20px;
+        width: 140px;  
+        margin-top:0px;
+}
+
+hr#divider
+{
+        height: 4px;
+        width: 100%;
+        background: linear-gradient(white,#be321b,white);
+        border: none;
+}
+
+h1
+{
+	font-size: 24px;
+	padding-left: 20px;
+}
+
+h2
+{
+	font-size: 18px;
+	padding-left: 20px;
+	font-style: italic;
+}
+
+p
+{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+dl
+{
+	list-style:circle;
+	padding-left: 20px;
+}
+dt
+{
+	font-weight: bold;
+}
+
+ul
+{
+	list-style-image: url('img/bullet.png');
+}
+
+a
+{
+	text-decoration: none;
+}
+
+a:link
+{
+	color:#000080;
+}
+
+a:visited
+{
+	color: #500080;
+}
+
+a:hover
+{
+	color:#be321b;
+}
+
+h2
+{
+	padding-left: 20px;
+}
